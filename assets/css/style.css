@@ -150,7 +150,8 @@ nav{
     height: auto;
 }
 .card-img-top{
-    height: 40vh;
+    max-width: 100%;
+    height: auto;
 }
 span.tech {
     color:white;
