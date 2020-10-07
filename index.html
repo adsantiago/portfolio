@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <script src="assets/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <div class="menu-toggle" id="nav-btn">
+        <nav class="nav shrink">
+            <li class="nav-item">
+                <i class="nav-icon animate__heartBeat fas fa-bars fa-3x" onclick="changeClass()"></i>
+            </li>
+        </nav>
+    </div>
+
+    <!-- MENU -->
+    <section>
+        <div class="full menu align-items-center flex-column" id="menu">
+            <div class="semi-full justify-content-center align-items-center flex-column">
+                <nav class="position-fixed">
+                    <p>
+                        <a class="menu-font" onclick="changeClass()" href="#home"> HOME </a>
+                    </p>
+                    <p>
+                        <a class="menu-font" onclick="changeClass()" href="#education"> EDUCATION </a>
+                    </p>
+                    <p>
+                        <a class="menu-font" onclick="changeClass()" href="#skills"> SKILLS </a>
+                    </p>
+                    <p>
+                        <a class="menu-font" onclick="changeClass()" href="#projects"> PROJECTS </a>
+                    </p>
+                    <p>
+                        <a class="menu-font" onclick="changeClass()" href="#contact"> CONTACT </a>
+                    </p>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- COVER PAGE -->
+    <section id="all">
+
+        <section id="home">
+            <div class="cover">
+                <div class="semi-full justify-content-center align-items-center flex-column">
+                    <div class="semi-full justify-content-center align-items-center flex-column">
+                        <h1>
+                            Adrián Santiago Guachetá Vargas
+                            <br>
+                            Web Developer
+                        </h1>
+                        <p class="pt-3"></p>
+                        <div class="color-white row justify-content-md-center">
+                            <div class="col">
+                                <i class="fab fa-github fa-3x"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fab fa-linkedin fa-3x"></i>
+                            </div>
+                            <div class="col">
+                                <i class="far fa-envelope fa-3x"></i>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col pt-2">
+                                adsantiago
+                            </div>
+                            <div class="col pt-2">
+                                Adrián Santiago Guachetá Vargas
+                            </div>
+                            <div class="col pt-2">
+                                adsantiago.guacheta@gmail.com
+                            </div>
+                        </div>
+                        <p class="pt-4"></p>
+                        <div class="background-dark color-white row justify-content-md-center">
+                            <div class="col">
+                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fas fa-mobile-alt fa-2x"></i>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col pt-2">
+                                Cali, Colombia
+                            </div>
+                            <div class="col pt-2">
+                                (+57) 3182902024
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STUDIES -->
+        <section id="education">
+            <div class="studies">
+                <div class="semi-full align-items-center flex-column">
+                    <h2> EDUCATION </h2>
+                    <hr class="under-line" />
+                    <div class="semi-full justify-content-center align-items-center flex-column">
+                        <h3>
+                            Libre University, Colombia
+                        </h3>
+                        <p class="education-info">
+                            System Engineering
+                        </p>
+                        <p class="education-date">
+                            2018 - Actually
+                        </p>
+                        <hr class="under-line-education" />
+                        <h3 class="pt-5">
+                            Coursera
+                        </h3>
+                        <p class="education-info">
+                            Diseñando páginas web con Bootstrap 4
+                        </p>
+                        <p class="education-date">
+                            August 2020
+                        </p>
+                        <hr class="under-line-education" />
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <div class="skills">
+                <div class="semi-full align-items-center flex-column">
+                    <h2>
+                        SKILLS
+                    </h2>
+                    <hr class="under-line" />
+                    <div class="semi-full justify-content-center align-items-center flex-column">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <figure>
+                                        <img class="skills-icon" src="assets/images/loges/html5.png" alt="">
+                                    </figure>
+                                    <h3>
+                                        HTML5
+                                    </h3>
+                                </div>
+                                <div class="col-sm">
+                                    <figure>
+                                        <img class="skills-icon" src="assets/images/loges/css3.png" alt="">
+                                    </figure>
+                                    <h3>
+                                        CSS3
+                                    </h3>
+                                </div>
+                                <div class="col-sm">
+                                    <figure>
+                                        <img class="skills-icon" src="assets/images/loges/js.png" alt="">
+                                    </figure>
+                                    <h3>
+                                        JAVASCRIPT
+                                    </h3>
+                                </div>
+                            </div>
+                            <p class="pt-5"></p>
+                            <div class="row align-items-center pt-5">
+                                <div class="col-sm">
+                                    <figure>
+                                        <img class="skills-icon" src="assets/images/loges/bootstrap.png" alt="">
+                                    </figure>
+                                    <h3>
+                                        BOOTSTRAP
+                                    </h3>
+                                </div>
+                                <div class="col-sm">
+                                    <figure>
+                                        <img class="skills-icon" src="assets/images/loges/mysql.png" alt="">
+                                    </figure>
+                                    <h3>
+                                        MYSQL
+                                    </h3>
+                                </div>
+                                <div class="col-sm">
+                                    <figure>
+                                        <img class="skills-icon-nodejs" src="assets/images/loges/nodejs.png" alt="">
+                                    </figure>
+                                    <h3>
+                                        NODEJS
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div class="projects-zone">
+                <div class="semi-full align-items-center flex-column">
+                    <h2>
+                        PROJECTS
+                    </h2>
+                    <hr class="under-line" />
+                    <p class="pt-5"></p>
+                    <div class="container-fluid mr-5 ml-5">
+                        <div class="row justify-content-md-center mr-5 ml-5">
+                            <div class="col-5">
+                                <div>
+                                    <a href="https://adsantiago.github.io/primera-pagina/">
+                                        <img class="card-img-top animate__animated animate__pulse"
+                                            src="assets/images/primerapagina.jpg" alt="Card image cap">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <h3>
+                                    Personal Web Page
+                                </h3>
+                                <p class="pt-3"></p>
+                                <span class="tech"> HTML5 </span>
+                                <span class="tech"> CSS3 </span>
+                                <span class="tech"> BOOTSTRAP </span>
+                                <p class="pt-3"></p>
+                                <p class="color-white"> My first web page with my personal information informally </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="pt-5"></p>
+                    <div class="container-fluid mr-5 ml-5">
+                        <div class="row justify-content-md-center mr-5 ml-5">
+                            <div class="col-5">
+                                <h3>
+                                    Best freestylers
+                                </h3>
+                                <p class="pt-3"></p>
+                                <span class="tech"> HTML5 </span>
+                                <span class="tech"> CSS3 </span>
+                                <span class="tech"> BOOTSTRAP </span>
+                                <span class="tech"> JAVASCRIPT </span>
+                                <p class="pt-3"></p>
+                                <p class="color-white"> A simple web page with information about the number of
+                                    championships
+                                    of the rap freestylers of Spanish-speaking </p>
+                            </div>
+                            <div class="col-5">
+                                <div>
+                                    <a href="https://adsantiago.github.io/mejores_free/">
+                                        <img class="card-img-top animate__animated animate__pulse"
+                                            src="assets/images/mejoresfree.jpg" alt="Card image cap">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="pt-5"></p>
+                    <div class="container-fluid mr-5 ml-5">
+                        <div class="row justify-content-md-center mr-5 ml-5">
+                            <div class="col-5">
+                                <div>
+                                    <a href="https://github.com/adsantiago">
+                                        <img class="card-img-top animate__animated animate__pulse"
+                                            src="assets/images/savelinks1.jpg" alt="Card image cap">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <h3>
+                                    API save links pages (CRUD)
+                                </h3>
+                                <p class="pt-3"></p>
+                                <span class="tech"> HTML5 </span>
+                                <span class="tech"> CSS3 </span>
+                                <span class="tech"> BOOTSTRAP </span>
+                                <span class="tech"> NODE JS </span>
+                                <span class="tech"> MYSQL </span>
+                                <p class="pt-3"></p>
+                                <p class="color-white"> An API to save links of your favorites web pages </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="pt-3"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="projects">
+                <div class="semi-full align-items-center flex-column">
+                    <h2> CONTACT </h2>
+                    <hr class="under-line" />
+                    <div class="semi-full social-networks justify-content-center align-items-center">
+                        <div class="background-dark row justify-content-md-center">
+                            <div class="col">
+                                <i class="fab fa-github fa-3x"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fab fa-linkedin fa-3x"></i>
+                            </div>
+                            <div class="col">
+                                <i class="far fa-envelope fa-3x"></i>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col pt-2">
+                                adsantiago
+                            </div>
+                            <div class="col pt-2">
+                                Adrián Santiago Guachetá Vargas
+                            </div>
+                            <div class="col pt-2">
+                                adsantiago.guacheta@gmail.com
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col mt-4">
+                                <p></p>
+                                <a href="https://adsantiago.github.io/cv/">
+                                    <button class="btn btn-primary animate__animated animate__pulse">
+
+                                        <i class="far fa-address-book fa-4x">
+
+                                        </i>
+                                        <p></p>
+                                        CV
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
